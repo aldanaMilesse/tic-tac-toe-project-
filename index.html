@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+    <title>tic-tac-toe</title>
+</head>
+<body>
+    <h1>TIC-TAC-TOE</h1>
+    <div class="playerOneAndTwo">
+        <div id="playerOne" class="playerGame">
+            <h2>player 1</h2>
+            <button value="X" class="onePlayerSelectionXO">X</button>
+            <button value="O" class="onePlayerSelectionXO">O</button>
+        </div>
+        <div id="playerTwo" class="playerGame">
+            <h2>player 2</h2>
+            <button class="twoPlayerSelectionXO" id="bot"> BOT </button>
+            <button class="twoPlayerSelectionXO" id="player"> PLAYER </button>
+        </div>
+        <br>
+    </div>
+    <div class="conteiner">
+    <div class="containerPlayer">
+        <h3>Player 1</h3>
+        <h4 class="roundsWonPlayerOne">Rounds Won = 0</h4>
+    </div>   
+    <div class="tablero">
+        <button id="1" class="box"></button>
+        <button  id="2" class="box"></button>
+        <button  id="3" class="box"></button>
+        <button id="4" class="box"></button>
+        <button id="5" class="box"></button>
+        <button id="6" class="box"></button>
+        <button id="7" class="box"></button>
+        <button id="8" class="box"></button>
+        <button id="9" class="box"></button>
+    </div>
+    <div class="containerPlayer">
+        <h3>Player 2</h3>
+        <h4 class="roundsWonPlayerTwo">Rounds Won = 0</h4>
+    </div>
+    </div>
+
+    <button id="restart">RESTART</button>
+    <script src="app.js"></script>
+</body>
+</html>

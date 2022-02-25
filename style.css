@@ -1,0 +1,47 @@
+:root{
+    --firstColor:#8ef6e4;
+    --secondColor:#9896f1;
+    --thirdColor:#d59bf6;
+    --fourthColor:#edb1f1;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #fbf2d5;
+    margin: 0px;
+}
+h1{
+    background-color: var(--secondColor);
+    padding: 40px;
+    margin: 0px;
+    text-align: center;
+}
+.playerOneAndTwo{
+    display: flex;
+    justify-content: space-around;
+}
+.playerGame{
+    background-color: var(--secondColor);
+    width: 40%;
+    display: grid;
+    height: 350px;
+    text-align: center;
+    border: 10px var(--firstColor) solid;
+    border-radius: 10px;
+}
+
+.tablero{
+    display: grid;
+    grid: repeat(3, [line1 line2 line3] 150px) / auto-flow 160px;
+    justify-content: center;
+    font-size: 30px;
+}
+.conteiner{
+    display: none;
+    justify-content: space-evenly;
+}
+
+button{
+    color: var(--secondColor);
+    font-size: 40px;
+    border: 1px var(--thirdColor) solid;
+}
