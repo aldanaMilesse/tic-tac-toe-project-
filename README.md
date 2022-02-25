@@ -10,3 +10,5 @@ Features:
 Human or AI players (AI is random)
 
 Checks for a winner or if there is a tie
+
+try demo: https://aldanamilesse.github.io/tic-tac-toe-project-/ 
